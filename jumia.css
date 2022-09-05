@@ -2,9 +2,18 @@
 body{
     width: 100%;
     height: 100%;
-   
-    margin: 0%;
+display: flex;
+justify-content: center;
+background-image: url(image/br.jpg);
+ margin: 0px;  
 }
+.limite{
+
+height: 100%;
+max-width: 1184px;
+
+}
+
 #entete{
 
     width: 100%;
@@ -27,13 +36,15 @@ body{
    
     display: flex;
     color: rgb(185, 184, 181);
-    font-size: 22px;
+    font-size: 16px;
     padding: 2px;
 }
 .vendre{ 
     margin-left: 25px;
     color:#ff9230;
 }
+
+.vendre:hover{ text-decoration-line: underline;}
 .partiemere{
     height: 10px;
     width: 80%;
@@ -79,9 +90,9 @@ body{
 
 #container{
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: flex;
-    background-color: rgb(238, 240, 241);
+    
 padding: 8px;
 }
 
@@ -101,6 +112,10 @@ padding: 8px;
    
 
 }
+.jumo{
+    width: 100%;
+    background-color: aliceblue;
+}
 .haut2{
     width: 20%;
     display: flex;
@@ -110,47 +125,102 @@ padding: 8px;
   
 }
 #imgjumia{
-    height: 70px;
+    height: 54px;
     width:250px;
 
 }
 
-.haut3{
+.Haut3{
+
+    font-size: 16px;
+    padding: 7px;
+    padding-top: 4px;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+width: 20px;
+height: 10px;
+
     width: 41%;
     display: flex;
-    font-size: 30px;
-    padding: 11px;
-    padding-top: 5px;
+    
+    
+    border: none; }
+   
+
+.haut3{
+display: flex;
+justify-content: center;
+    font-size: 21px;
+    padding: 0px;
+    padding-top: 4px;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+    width: 41%;
+    display: flex;
+    
+    
     border: none;
-    margin-left: 5px;
-    margin-right: 5px;
+   
 
   
      }
      .haut4{
+
         width: 100%;
         display: flex;
-        margin: 5px;
+        margin: 3px;
       justify-content: right;
+
+
+        width: 100%;
+        display: flex;
+       
+    }
+    form{
+        display: flex;
+        width: 500px;;
+
+    }
+    .rech{
+        color: #939393;
+        border: solid 1px rgb(209, 205, 205);
+        border-radius: 5px; 
+        height: 40px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 #text{
-    width:600px ;
-    height: 55px;
+    width:388px ;
+    height: 37px;
     border-radius: 5px;
-    font-size: 22px;
-    border: solid 1px rgb(209, 205, 205);
+    font-size: 19px;
+    border: solid 0px rgb(209, 205, 205);
+
 }
+#text:checked{
+    border: white;
+}
+
+
 #button{
-    height: 60px;
-    width:200px;
+    height: 40px;
+        width:124px;
+    
     background-color:#ff9230;
     border-radius: 5px;
     border: solid 1px rgb(209, 205, 205);
-    font-size: 26px;
+   
     color: white;
     box-shadow: 4px 7px 6px rgba(70, 69, 69, 0.13);
     
 }
+
+#loupe{ opacity: 0;}
 #button:hover{
     background-color: rgb(219, 125, 9);
 }
@@ -158,12 +228,12 @@ padding: 8px;
 #gauche{
 
     width: 20%;
-    height: 550px;
+    height: 428px;
     background-color: rgb(252, 249, 246);
     margin: 10px;
     border-radius: 10px;
 }
-ul{ font-size: 18px;
+ul{ font-size: 15px;
 font-style: normal;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 list-style: none;
@@ -189,8 +259,8 @@ a{
 #centre{
 
 
-    width: 55%;
-    height: 550px;
+    width: 76%;
+    height: 428px;
     background-color: rgb(248, 177, 83);
     margin: 10px;
     position: relative;
@@ -248,15 +318,15 @@ a{
 }
 #droite{
     width: 20%;
-    height: 550px;
+    height: 428px;
     
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.droite1{
-    margin-bottom: 38px;
-    height:46% ;
+.droite1 {
+    margin-bottom: 9px;
+    height:49% ;
     width:98% ;
     display: flex;
     flex-wrap: wrap;
@@ -265,24 +335,44 @@ a{
    border-radius: 15px;
 }
 
+.droit a{
+    width: 138%;
+    height: 46%;
+    display: flex;
+    gap: 5px;
+   
+}
+.icone{
+    margin-top: 20px;
+}
+
 
 .imgdroite{ height:100% ;
 width:100% ;
 border-radius: 10px;}
 
+.icone{
+    height: 30px;
+    width: 30px;
+}
+
 #bas{
 
     width: 100%;
-    height: 100%;
-    display: flex;
-    
-}
-.bas1{
-    background-color: rgb(252, 251, 248);
-    overflow-x: scroll;
-    margin-bottom: 10px;
+    height: 148px;
     display: flex;
     justify-content: center;
+    background-color: rgb(252, 251, 248);
+}
+
+.bas1{
+    
+    overflow-x: scroll;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 92%;
+    height: 148px;
 }
 .bas1::-webkit-scrollbar{
     display: none;
@@ -303,7 +393,7 @@ border-radius: 10px;}
    
     border-radius:50% ;
     padding-top: 15px;
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     border: solid 1px;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -314,55 +404,180 @@ border-radius: 10px;}
 
 .imagebas{
     margin: 5px;
-    border-radius: 62px;
-    height: 210px;
-    width: 210px;
+    border-radius: 16px;
+    height: 121px;
+    width: 119px;
 }
 .imagebas:hover {
     transform: scale(1.05);
   }
 
 
-  @media (max-width:1629px){
+  
+
+
+  @media(max-width:1024px){
+
+    .limite{
+
+        height: 100%;
+        max-width: 1000px;
+        
+        }
+        #bar{height: 19px;}
+        #gauche{ height: 319px;}
+        #centre{ height: 319px;}
+        #droite{ height: 319px;}
+        #haut{ height: 48px;}
+        .haut3{font-size: 13px;}
+        ul{font-size: 11px;}
+        .droit{font-size: 11px;}
+        
+
+  }
+
+  @media (max-width:375px){
+    body{
+    
+   
+       
+    }
+    .limite{
+    
+    height: 100%;
+    max-width: 375px;
+    background: none;
+    
+    }
 
     .haut4{
         
-        margin: 3px;
+        margin: 2px;
+    }
+    #haut{
+        width: 375px;
+       height: 80px;
+       background-color: #666565;
     }
     #text{
-        width:500px ;
-    height: 45px;
-    border-radius: 5px;
-    font-size: 19px;
+        width:292px ;
+    height: 42px;
+    
+    font-size: 22px;
     }
 
 
     #button{
-        height: 50px;
-        width:150px;
-        font-size: 21px;
+        height: 35px;
+        width:41px;
+        font-size: 25px;
        
 
  }
 
-
- .haut3{
+.search{display: none;
+}
+ 
+     .haut2{
    
-    font-size: 22px;
-    padding: 7px;
-    padding-top: 4px;
-    
-    margin-left: 3px;
-    margin-right: 3px;
+        display: none;
+         }
 
-  
-     }
      .haut4{
-        width: 100%;
         display: flex;
-        margin: 3px;
-      justify-content: right;
+    flex-wrap: wrap;
+        margin: 1px;
+      
+    }
+    .haut1{display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: 375px;}
+    .haut3{
+        margin-right: 62px;
+        margin-left: -45px;
+       
+
     }
 
+#fa{display: none;}
+#loupe{ opacity: 1;}
 
+    #bar{
+        height: 106px;
+        width: 375px;
+        font-size: 17px;
+        padding: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(34, 33, 33);
+    }
+
+    .vendre{ 
+        margin-left: 102px;
+        margin-top: 7px;
+        margin-bottom: -19px;
+        
+    }
+    
+    #imgjumia{ display: none;}
+    
+    ul{ font-size: 15px; }
+
+    #centre{
+        height: 195px;
+    width: 375px;
+margin: 0px; }
+        body{
+            width: 375px;
+            height: 667px;
+           
+            margin: 0%;
+        }
+        
+        #droite{ display: none; }
+        #gauche{display: none;}
+       #container{  width: 100%;
+        height: 32%;
+        display: flex;
+        background-color: rgb(238, 240, 241);
+        padding: -2px;
+ }
+ #imgentete{
+    width: 100%;
+    height: 52px;
+
+}
+
+.partiemere{
+    height: 77px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
   }
+
+  .partie1{
+
+    width: 88px;
+    height: 13px;
+    display: flex;
+    padding: 13px;
+    
+}
+
+.partie2{
+
+    width: 110px;
+    height: 25px;
+    
+    
+}
+
+.imagebas{
+    margin: 2px;
+    border-radius: 2px;
+    height: 85px;
+    width: 85px;
+}
+
+ }

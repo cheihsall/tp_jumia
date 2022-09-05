@@ -54,3 +54,32 @@ precedant.addEventListener('click' ,function(){
         defilerImages(-700)
 
      })
+
+
+
+
+/* Lorsque l'utilisateur clique sur le bouton, basculer entre le masquage et l'affichage du contenu de la liste déroulante *function maFonction1(){     document.getElementById("sous_menu1").classList.toggle("change"); }function maFonction2(){     document.getElementById("sous_menu2").classList.toggle("change"); } 
+  //Fermez le menu déroulant si l'utilisateur clique en dehors de celui-ci window.onclick = function(e) {     if (!e.target.matches('.mybutton')) {       var sousOnglets = document.getElementsByClassName("sous_onglet");       for (var i = 0; i < sousOnglets.length; i++) {         var afficher = sousOnglets[i];         if (afficher.classList.contains('change')) {           afficher.classList.remove('change');         }       }     }   }
+/* Lorsque l'utilisateur clique sur le bouton,
+basculer entre le masquage et l'affichage du contenu de la liste déroulante */
+function maFonction1(){
+    document.getElementById("sous_menu1").classList.toggle("change");
+}
+function maFonction2(){
+    document.getElementById("sous_menu2").classList.toggle("change");
+}
+
+//Fermez le menu déroulant si l'utilisateur clique en dehors de celui-ci
+window.onclick = function(e) {
+    if (!e.target.matches('.mybutton')) {
+      var sousOnglets = document.getElementsByClassName("sous_onglet");
+      for (var i = 0; i < sousOnglets.length; i++) {
+        var afficher = sousOnglets[i];
+        if (afficher.classList.contains('change')) {
+          afficher.classList.remove('change');
+        }
+      }
+    }
+  }
+
+
