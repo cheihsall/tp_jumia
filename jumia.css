@@ -418,73 +418,108 @@ border-radius: 10px;}
 
   @media(max-width:1024px){
 
-    .limite{
-
-        height: 100%;
-        max-width: 1000px;
-        
+    .limite{ height: 100%;
+        max-width: 900px;}
+        #bar{height: 17px;}
+        #gauche{ height: 300px;}
+        #centre{ height: 300px;}
+        #droite{ height: 300px;}
+        #haut{ height: 42px;}
+        .haut3{font-size: 10px;}
+        ul{font-size: 9px;}
+        .droit{font-size: 9px;}
+        #imgjumia{height: 34px; }
         }
-        #bar{height: 19px;}
-        #gauche{ height: 319px;}
-        #centre{ height: 319px;}
-        #droite{ height: 319px;}
-        #haut{ height: 48px;}
-        .haut3{font-size: 13px;}
-        ul{font-size: 11px;}
-        .droit{font-size: 11px;}
+
+  @media(max-width:890px){
+
+    .limite{height: 100%;
+        max-width: 800px;}
+        #bar{height: 17px;}
+        #gauche{ height: 300px;}
+        #centre{ height: 300px;}
+        #droite{ height: 300px;}
+        #haut{ height: 42px;}
+        .haut3{font-size: 10px;}
+        ul{font-size: 9px;}
+        .droit{font-size: 9px;}
+        .rech{ width: 300px; 
+            height: 29px;}
+        #button{height: 29px;}
+        .haut2{width: 19%;}
+        #imgjumia{ height: 34px;
+            width:137px;}
+        .brech{ width: 66%;}
         
-
-  }
-
-  @media (max-width:375px){
-    body{
-    
-   
-       
-    }
-    .limite{
-    
-    height: 100%;
-    max-width: 375px;
-    background: none;
-    
-    }
-
-    .haut4{
-        
-        margin: 2px;
-    }
-    #haut{
-        width: 375px;
-       height: 80px;
-       background-color: #666565;
-    }
-    #text{
-        width:292px ;
-    height: 42px;
-    
-    font-size: 22px;
-    }
-
-
-    #button{
-        height: 35px;
-        width:41px;
-        font-size: 25px;
-       
-
- }
-
-.search{display: none;
-}
- 
-     .haut2{
-   
-        display: none;
          }
 
-     .haut4{
+
+         @media(max-width:412px){
+
+                body{display: flex;
+                justify-content:inherit;}
+                .limite{height: 100%;
+                max-width: 800px;}
+                #bar{height: 17px;
+                gap: 23px;}
+                #entete{ width: 52%;
+                    height: 10%;}
+                    .vendre{ 
+                        margin-left: 0px; }
+                        .partiemere{width: 34%;
+                           justify-content:inherit;}
+
+                           #container{
+                           
+                            display: inherit;
+                            
+                        
+                        }
+                #gauche{ height: 242px;
+                margin-left: 30px;}
+                #centre{ height: 300px;}
+                #droite{ height: 300px;
+                width: 362px;
+            margin-left: 30px;
         display: flex;
+    margin-bottom: -139px;}
+                #haut{ height: 42px;}
+                .haut3{font-size: 10px;}
+                ul{font-size: 9px;}
+                .droit{font-size: 9px;}
+                .rech{ width: 263px; 
+                    height: 29px;}
+                #button{height: 29px;}
+                .haut2{display: none;}
+                #imgjumia{display: none;}
+                .brech{ width: 66%;}
+                
+                 }
+
+  @media (max-width:376px){
+    body{
+    }
+    .limite{height: 100%;
+    max-width: 375px;
+    background: none;}
+
+    .haut4{margin: 2px;}
+    #haut{width: 375px;
+       height: 80px;
+    background-color: #666565;}
+    #text{width:292px ;
+    height: 42px;
+    font-size: 22px;}
+
+    #button{ height: 35px;
+        width:41px;
+        font-size: 25px;}
+
+    .search{display: none;}
+ 
+     .haut2{ display: none; }
+
+    .haut4{display: flex;
     flex-wrap: wrap;
         margin: 1px;
       
@@ -494,8 +529,8 @@ border-radius: 10px;}
     width: 100%;
     width: 375px;}
     .haut3{
-        margin-right: 62px;
-        margin-left: -45px;
+        margin-right: 41px;
+        margin-left: -28px;
        
 
     }
@@ -579,5 +614,5 @@ margin: 0px; }
     height: 85px;
     width: 85px;
 }
-
- }
+}
+ 
